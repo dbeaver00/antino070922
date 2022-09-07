@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  border: 3px black solid;
+  padding: 10px 30px;
+  margin: 18px 0px;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secondaryMain {
+  width: 70%;
+}
+
+.main h1 {
+  margin: 0px;
+}
+
+.main p {
+  display: flex;
+}
+
+.editable {
+  width: 85%;
+  margin-left: 2px;
+}
+
+.editable:focus-visible {
+  outline: none;
+}
+
+.edit {
+  background-color: greenyellow;
+}
+
+.main button {
+  padding: 9px 12px;
+  border: 2px solid black;
+  border-radius: 9px;
+  margin-left: 2px;
+}

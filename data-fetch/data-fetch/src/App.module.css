@@ -1,0 +1,15 @@
+.toggle {
+  margin-top: 18px;
+  padding: 8px 30px;
+  margin-right: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.items {
+  padding: 0px 20px;
+}
+
+.items li {
+  list-style-type: none;
+}

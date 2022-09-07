@@ -1,0 +1,90 @@
+.showCard {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 15px 10px 0px;
+  padding: 0px 20px 10px 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.poster {
+  display: flex;
+  flex-direction: column;
+  width: 104px;
+  align-items: center;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.poster img {
+  width: 6rem;
+  height: 9rem;
+}
+
+.poster h5 {
+  margin: 2px 0px;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* .movieDetails {
+  margin: 0px 11px 11px 11px;
+} */
+
+.showDetails p {
+  margin: 0px;
+  font-size: 0.7rem;
+  width: 50%;
+}
+
+.crew {
+  /* position: relative;
+  display: inline-block; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  width: 120px;
+}
+
+.rating svg {
+  width: 15px;
+  height: 9px;
+}
+
+/* .tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.crew:hover + .tooltip {
+  visibility: visible;
+} */
+
+@media screen and (max-width: 500px) {
+  .showDetails {
+    display: none;
+  }
+
+  .poster img {
+    width: 7rem;
+    height: 9rem;
+  }
+}
