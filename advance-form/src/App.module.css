@@ -1,0 +1,78 @@
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.mainForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.mainForm input {
+  width: 375px;
+  margin: 20px 20px 0px 20px;
+  height: 35px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+.mainForm p {
+  margin: 0px;
+  font-size: 9px;
+  margin-top: 2px;
+  color: red;
+  width: 100%;
+  margin-left: 40px;
+}
+
+.secondary_div {
+  width: 375px;
+  margin: 20px 20px 0px 20px;
+  height: 35px;
+  padding: 7px 20px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secondary_div label {
+  font-size: 16px;
+}
+
+.secondary_div select {
+  font-size: 16px;
+  height: 100%;
+}
+
+.mainForm textarea {
+  resize: none;
+  width: 375px;
+  margin: 20px 20px 0px 20px;
+  height: 100px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.mainForm button {
+  margin: 25px;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.mainForm button:hover {
+  background-color: antiquewhite;
+  font-weight: bold;
+}
